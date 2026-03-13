@@ -20,84 +20,151 @@ View your app in AI Studio: https://ai.studio/apps/d93f9d92-c682-4075-bc4c-0b91d
    `npm run dev`
 _____________________________________________________________________________________________
 
-Aqui está o README completo com todas as marcações Markdown adequadas para o GitHub:
-
-```markdown
-# 📊 Dashboard de Governança, Riscos e Compliance em TI
-
-<p align="center">
-  <img src="https://img.shields.io/badge/versão-1.0.0-blue" alt="Versão">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" alt="Status">
-  <img src="https://img.shields.io/badge/licença-MIT-green" alt="Licença">
-  <img src="https://img.shields.io/badge/ISO-31000-orange" alt="ISO 31000">
-  <img src="https://img.shields.io/badge/ISO-27001-red" alt="ISO 27001">
-  <img src="https://img.shields.io/badge/COBIT-2019-purple" alt="COBIT">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Google%20Looker%20Studio-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Looker Studio">
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Google Sheets">
-  <img src="https://img.shields.io/badge/LGPD-2596be?style=for-the-badge&logo=brasil&logoColor=white" alt="LGPD">
-</p>
-
----
-
-## 📋 Sobre o Projeto
-
-Dashboard interativo desenvolvido no **Google Looker Studio** para gestão integrada de **Riscos, Compliance e Tomada de Decisão em TI**, aplicado a um cenário real de transformação digital em uma empresa de médio porte do setor de serviços.
-
-O projeto foi desenvolvido como trabalho acadêmico para a disciplina de **Risk Management and IT Compliance**, integrando frameworks e normas como ISO 31000, ISO/IEC 27001, COBIT e LGPD.
-
-### 🎯 Objetivos
-
-- ✅ Identificar e analisar riscos de TI sob perspectivas técnica, organizacional e legal
-- ✅ Garantir conformidade com normas e regulamentações
-- ✅ Apoiar a tomada de decisão segura e responsável
-- ✅ Propor diretrizes práticas para governança de TI
-- ✅ Consolidar informações em um único painel executivo e operacional
-
----
-
 ## 🏗️ Estrutura do Dashboard
 
-O dashboard é composto por **23 abas** organizadas em 5 camadas:
+O dashboard é composto por **23 abas** organizadas em 5 camadas estratégicas:
+
+### 📊 Visão Geral da Arquitetura
 
 ```mermaid
 graph TD
-    A[DASHBOARD EXECUTIVO] --> B[CAMADA 1: VISÃO ESTRATÉGICA]
-    A --> C[CAMADA 2: GOVERNANÇA]
-    A --> D[CAMADA 3: OPERACIONAL]
-    A --> E[CAMADA 4: DECISÃO E CONTROLE]
-    A --> F[CAMADA 5: CULTURA E STAKEHOLDERS]
+    A[🎯 DASHBOARD EXECUTIVO] --> B[📋 CAMADA 1: VISÃO ESTRATÉGICA]
+    A --> C[🏛️ CAMADA 2: GOVERNANÇA]
+    A --> D[⚙️ CAMADA 3: OPERACIONAL]
+    A --> E[⚖️ CAMADA 4: DECISÃO E CONTROLE]
+    A --> F[👥 CAMADA 5: CULTURA E STAKEHOLDERS]
     
-    B --> B1[Visão Geral]
-    B --> B2[KPIs e Resultados]
-    B --> B3[Gestão de Riscos ISO 31000]
+    B --> B1[📌 Visão Geral]
+    B --> B2[📈 KPIs e Resultados]
+    B --> B3[🎯 Gestão de Riscos ISO 31000]
     
-    C --> C1[Conformidade e ISO]
-    C --> C2[Controles ISO 27001]
-    C --> C3[Governança COBIT]
-    C --> C4[LGPD e Privacidade]
+    C --> C1[✅ Conformidade e ISO]
+    C --> C2[🔒 Controles ISO 27001]
+    C --> C3[🏛️ Governança COBIT]
+    C --> C4[🔐 LGPD e Privacidade]
     
-    D --> D1[Análise 5W2H]
-    D --> D2[Ishikawa]
-    D --> D3[SWOT]
-    D --> D4[PDCA]
-    D --> D5[Kanban]
-    D --> D6[Roadmap/Gantt]
+    D --> D1[❓ Análise 5W2H]
+    D --> D2[🐟 Ishikawa]
+    D --> D3[📊 SWOT]
+    D --> D4[🔄 PDCA]
+    D --> D5[📌 Kanban]
+    D --> D6[📅 Roadmap/Gantt]
     
-    E --> E1[Matriz de Decisão]
-    E --> E2[Plano de Continuidade]
-    E --> E3[Qualidade e NC's]
-    E --> E4[Tecnologias]
-    E --> E5[Organograma]
-    E --> E6[Custos e Investimentos]
+    E --> E1[⚖️ Matriz de Decisão]
+    E --> E2[🔄 Plano de Continuidade]
+    E --> E3[⚠️ Qualidade e NC's]
+    E --> E4[💻 Tecnologias]
+    E --> E5[👥 Organograma]
+    E --> E6[💰 Custos e Investimentos]
     
-    F --> F1[Ética e ESG]
-    F --> F2[Cultura e Capacitação]
-    F --> F3[Stakeholders e Comunicação]
-    F --> F4[Auditoria e Monitoramento]
-    F --> F5[Chat IA Governança]
+    F --> F1[🌱 Ética e ESG]
+    F --> F2[📚 Cultura e Capacitação]
+    F --> F3[📢 Stakeholders e Comunicação]
+    F --> F4[👁️ Auditoria e Monitoramento]
+    F --> F5[🤖 Chat IA Governança]
+```
+
+---
+
+### 📋 Detalhamento das Camadas
+
+<details open>
+<summary><b>📌 CAMADA 1: VISÃO ESTRATÉGICA</b></summary>
+<br>
+
+| Aba | Descrição | Principais Funcionalidades | Ícone |
+|-----|-----------|---------------------------|:-----:|
+| **Visão Geral** | Contexto da organização, objetivos estratégicos e problemas identificados | • Dados da empresa<br>• Objetivos estratégicos<br>• Problemas identificados | 📋 |
+| **KPIs e Resultados** | Indicadores de desempenho e tendências | • Métricas em tempo real<br>• Tendências mensais<br>• Comparativo com metas | 📈 |
+| **Gestão de Riscos ISO 31000** | Matriz de riscos, probabilidade x impacto, plano de tratamento | • Identificação de riscos<br>• Matriz de calor<br>• Plano de tratamento | 🎯 |
+
+</details>
+
+<details open>
+<summary><b>🏛️ CAMADA 2: GOVERNANÇA</b></summary>
+<br>
+
+| Aba | Descrição | Principais Funcionalidades | Ícone |
+|-----|-----------|---------------------------|:-----:|
+| **Conformidade e ISO** | Mapeamento de requisitos normativos e status de conformidade | • Normas aplicáveis<br>• Status de implementação<br>• Evidências de conformidade | ✅ |
+| **Controles ISO 27001** | Mapeamento de controles do Anexo A, status e evidências | • 93 controles mapeados<br>• Status por domínio<br>• Gráfico de maturidade | 🔒 |
+| **Governança COBIT** | Alinhamento com processos COBIT e níveis de capacidade | • Processos EDM, APO, DSS, MEA<br>• Níveis de capacidade<br>• Indicadores de governança | 🏛️ |
+| **LGPD e Privacidade** | Mapeamento de dados, direitos dos titulares, incidentes | • Mapeamento de dados pessoais<br>• Direitos dos titulares<br>• Incidentes de privacidade | 🔐 |
+
+</details>
+
+<details open>
+<summary><b>⚙️ CAMADA 3: OPERACIONAL</b></summary>
+<br>
+
+| Aba | Descrição | Principais Funcionalidades | Ícone |
+|-----|-----------|---------------------------|:-----:|
+| **Análise 5W2H** | Planos de ação detalhados para riscos prioritários | • What? Why? Where? When? Who? How? How much?<br>• Responsáveis e prazos<br>• Custos envolvidos | ❓ |
+| **Ishikawa** | Análise de causas raiz dos problemas de TI | • Diagrama de espinha de peixe<br>• 6Ms (Método, Mão de obra, Material, Máquina, Medição, Ambiente)<br>• Causas identificadas | 🐟 |
+| **SWOT** | Diagnóstico estratégico de forças, fraquezas, oportunidades e ameaças | • Forças (Strengths)<br>• Fraquezas (Weaknesses)<br>• Oportunidades (Opportunities)<br>• Ameaças (Threats) | 📊 |
+| **PDCA** | Ciclo de melhoria contínua para gestão de riscos | • Planejar (Plan)<br>• Executar (Do)<br>• Verificar (Check)<br>• Agir (Act) | 🔄 |
+| **Kanban** | Acompanhamento visual das ações de compliance | • A Fazer<br>• Em Andamento<br>• Revisão<br>• Concluído | 📌 |
+| **Roadmap/Gantt** | Cronograma de implementação com marcos e responsáveis | • Fases do projeto<br>• Marcos importantes<br>• Responsáveis e prazos | 📅 |
+
+</details>
+
+<details open>
+<summary><b>⚖️ CAMADA 4: DECISÃO E CONTROLE</b></summary>
+<br>
+
+| Aba | Descrição | Principais Funcionalidades | Ícone |
+|-----|-----------|---------------------------|:-----:|
+| **Matriz de Decisão** | Árvore de decisão, níveis de autorização, scorecard | • Árvore de decisão<br>• Níveis de autorização por valor<br>• Scorecard de decisões | ⚖️ |
+| **Plano de Continuidade** | BIA, RTO/RPO, estratégias e testes | • Análise de Impacto nos Negócios<br>• RTO e RPO por sistema<br>• Estratégias e testes | 🔄 |
+| **Qualidade e NC's** | Registro e acompanhamento de não conformidades | • Registro de NCs<br>• Causa raiz<br>• Ações corretivas e prazos | ⚠️ |
+| **Tecnologias** | Inventário de sistemas críticos e vulnerabilidades | • Inventário de sistemas<br>• Nível de criticidade<br>• Vulnerabilidades identificadas | 💻 |
+| **Organograma** | Estrutura organizacional e matriz RACI | • Estrutura hierárquica<br>• Matriz RACI detalhada<br>• Responsabilidades por processo | 👥 |
+| **Custos e Investimentos** | Orçamento, ROI de projetos, custo da não conformidade | • Orçamento por categoria<br>• ROI de projetos<br>• Custo da não conformidade | 💰 |
+
+</details>
+
+<details open>
+<summary><b>👥 CAMADA 5: CULTURA E STAKEHOLDERS</b></summary>
+<br>
+
+| Aba | Descrição | Principais Funcionalidades | Ícone |
+|-----|-----------|---------------------------|:-----:|
+| **Ética e ESG** | Iniciativas ambientais, sociais e de governança | • Environmental (Ambiental)<br>• Social (Social)<br>• Governance (Governança) | 🌱 |
+| **Cultura e Capacitação** | Programa de treinamentos, calendário e avaliações | • Programa de treinamentos<br>• Calendário de capacitação<br>• Avaliação de cultura de segurança | 📚 |
+| **Stakeholders e Comunicação** | Mapa de stakeholders, plano de comunicação, feedback | • Mapa de stakeholders<br>• Plano de comunicação<br>• Feedback e satisfação | 📢 |
+| **Auditoria e Monitoramento** | Plano de auditoria, monitoramento contínuo, painel de incidentes | • Plano de auditoria<br>• Monitoramento contínuo<br>• Painel de incidentes | 👁️ |
+| **Chat IA Governança** | Simulação de diálogos para apoio à decisão | • Simulação de diálogos<br>• Análise de situações<br>• Recomendações baseadas em normas | 🤖 |
+
+</details>
+
+---
+
+### 📊 Resumo das Abas por Categoria
+
+| Categoria | Quantidade de Abas | Principais Funcionalidades |
+|-----------|:------------------:|---------------------------|
+| **Visão Estratégica** | 3 | Monitoramento de alto nível, KPIs, riscos estratégicos |
+| **Governança** | 4 | Conformidade normativa, controles, frameworks |
+| **Operacional** | 6 | Análises, planejamento, execução e acompanhamento |
+| **Decisão e Controle** | 6 | Suporte à decisão, continuidade, qualidade, custos |
+| **Cultura e Stakeholders** | 4 | Pessoas, comunicação, auditoria, ética |
+| **TOTAL** | **23** | **Dashboard integrado e completo** |
+
+---
+
+### 🎯 Benefícios da Estrutura em Camadas
+
+| Camada | Benefício Principal | Público-Alvo |
+|--------|---------------------|--------------|
+| **Visão Estratégica** | Tomada de decisão de alto nível | Alta gestão, diretores |
+| **Governança** | Garantia de conformidade e boas práticas | Comitê de TI, DPO, auditores |
+| **Operacional** | Execução e acompanhamento de ações | Times de TI, infraestrutura, desenvolvimento |
+| **Decisão e Controle** | Suporte à decisão baseada em dados | Gestores, coordenadores |
+| **Cultura e Stakeholders** | Engajamento e comunicação | RH, comunicação, todos os funcionários |
+
+---
+
+Esta estrutura garante que **todas as perspectivas** necessárias para uma gestão eficaz de riscos e compliance em TI sejam contempladas, desde o nível estratégico até o operacional, passando pela governança e pelo engajamento das pessoas.
 ```
 
 ---
@@ -459,5 +526,3 @@ git push -u origin main
 - [x] Links úteis
 - [x] Licença MIT
 - [x] .gitignore configurado
-
-Agora é só copiar e colar no seu repositório GitHub! 🚀
