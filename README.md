@@ -274,17 +274,6 @@ Os dados são alimentados através de planilhas Google Sheets integradas:
 
 ---
 
-## 👥 Equipe e Responsabilidades
-
-| Papel | Responsável | Principais Atividades | Contato |
-|-------|-------------|----------------------|---------|
-| **Diretor de TI** | Carlos Mendes | Decisões estratégicas, aprovações | 📧 c.mendes@empresa.com |
-| **Gerente de Infraestrutura** | Pedro Lima | Continuidade, backups, infraestrutura | 📧 p.lima@empresa.com |
-| **Gerente de Sistemas** | Ana Souza | Aplicações, desenvolvimento | 📧 a.souza@empresa.com |
-| **Gerente de Segurança** | Carla Reis | Controles ISO 27001, gestão de riscos | 📧 c.reis@empresa.com |
-| **DPO (Encarregado)** | Mariana Santos | LGPD, privacidade | 📧 m.santos@empresa.com |
-| **Analista de Compliance** | João Oliveira | Auditoria, conformidade | 📧 j.oliveira@empresa.com |
-
 ### Matriz RACI Simplificada
 
 | Atividade | Diretor | Infra | Sistemas | Segurança | DPO |
@@ -342,10 +331,10 @@ git push origin minha-feature
 
 | | | |
 |:---:|:---:|:---:|
-| <img src="https://img.icons8.com/color/48/000000/user.png"/> | **Autor** | [Seu Nome] |
-| <img src="https://img.icons8.com/color/48/000000/email.png"/> | **E-mail** | [seu.email@exemplo.com](mailto:seu.email@exemplo.com) |
-| <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> | **LinkedIn** | [Perfil no LinkedIn](https://linkedin.com/in/seu-perfil) |
-| <img src="https://img.icons8.com/color/48/000000/school.png"/> | **Instituição** | [Nome da Faculdade/Universidade] |
+| <img src="https://img.icons8.com/color/48/000000/user.png"/> | **Autor** | Raphael H. S. S. |
+| <img src="https://img.icons8.com/color/48/000000/email.png"/> | **E-mail** | [seu.email@exemplo.com](excelsior8elpharah@gmail.com) |
+| <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> | **LinkedIn** | [Perfil no LinkedIn](https://www.linkedin.com/in/raphael-h-s-serafim/) |
+| <img src="https://img.icons8.com/color/48/000000/school.png"/> | **Instituição** | UniFecaf |
 
 </div>
 
@@ -367,7 +356,7 @@ git push origin minha-feature
   <img src="https://img.shields.io/badge/Feito%20com-Markdown-1f425f.svg" alt="Feito com Markdown">
   <img src="https://img.shields.io/badge/Contributions-welcome-brightgreen.svg" alt="Contribuições welcome">
   
-  ***Última atualização: Março de 2024***
+  ***Última atualização: Março de 2026***
   
 </div>
 ```
