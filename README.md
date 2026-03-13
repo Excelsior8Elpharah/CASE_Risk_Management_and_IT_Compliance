@@ -332,8 +332,8 @@ git push origin minha-feature
 | | | |
 |:---:|:---:|:---:|
 | <img src="https://img.icons8.com/color/48/000000/user.png"/> | **Autor** | Raphael H. S. S. |
-| <img src="https://img.icons8.com/color/48/000000/email.png"/> | **E-mail** | [seu.email@exemplo.com]([excelsior8elpharah@gmail.com]) |
-| <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> | **LinkedIn** | [Perfil no LinkedIn]([https://www.linkedin.com/in/raphael-h-s-serafim/]) |
+| <img src="https://img.icons8.com/color/48/000000/email.png"/> | **E-mail** | [seu.email@exemplo.com] excelsior8elpharah@gmail.com |
+| <img src="https://img.icons8.com/color/48/000000/linkedin.png"/> | **LinkedIn** | [Perfil no LinkedIn] https://www.linkedin.com/in/raphael-h-s-serafim/ |
 | <img src="https://img.icons8.com/color/48/000000/school.png"/> | **Instituição** | UniFecaf |
 
 </div>
